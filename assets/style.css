@@ -60,3 +60,33 @@ html, body {
     font-size: 17.899pt;
     text-align: center;
 }
+
+@media screen and (max-height: 768px) {
+    .logo img {
+        width: 200px;
+        height: auto;
+        margin-top: -150px;
+    }
+
+    .text {
+        font-size: 14pt;
+        margin-top: -60px;
+        margin-bottom: 60px;
+    }
+
+    .button {
+        width: 250px;
+        height: 80px;
+        font-size: 16pt;
+    }
+
+    .footer-text {
+        font-size: 14pt;
+        margin-top: 40px;
+    }
+
+    .container {
+        padding: 20px;
+        justify-content: space-between;
+    }
+}
